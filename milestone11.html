@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>milestone 1</h1>
+<p>JavaScript is used by programmers across the world create dynamic and interactive web content like apllication and browser</p>
+<p id="demo1"</p>
+<script>
+const n=Math.ceil(Math.random()*10);
+document.getElementById("demo1").innerHTML=n;
+const gn=prompt("Guess the number between 1 to 10");
+if(gn==n){
+document.getElementById("demo1").innerHTML="Matched";
+}
+else{
+document.getElementById("demo1").innerHTML="Not Matched";
+}
+</script>
+</body>
+</html>
